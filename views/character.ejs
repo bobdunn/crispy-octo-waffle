@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= character.name %>'s Page'</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Welcome to the character page for <%= character.name %></h1>
+    <p>Did you know that <%= character.name %> weighs <%= character.mass %> kg and is <%= character.height %> cm tall?</p>
+    <p>Here's some more super interesting stuff about <%= character.name %>:
+      <pre><%= JSON.stringify(character, 2, 2) %></pre>
+    </p>
+
+
+
+    </p>
+  </body>
+</html>
